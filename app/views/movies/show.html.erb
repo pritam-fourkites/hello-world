@@ -28,6 +28,10 @@
                 <td><strong>Rating:</strong></td>
                 <td><%= @movie.rating %></td>
               </tr>
+              <tr>
+                <td><strong>Avg Ratings:</strong></td>
+                <td><%= @avg_rating %></td>
+              </tr>
             </tbody>
           </table>
           <%= link_to "Write a Review", new_movie_review_path(@movie) %>
